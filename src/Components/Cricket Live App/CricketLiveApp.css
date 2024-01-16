@@ -1,0 +1,251 @@
+*{
+   margin:0;
+   padding:0;
+   text-decoration: none; 
+   list-style-type: none;
+   box-sizing: border-box;
+  
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1512719994953-eabf50895df7?q=80&w=1929&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+nav{
+    margin:0;
+    background-color: rgb(49, 144, 49);
+    height: 80px;
+    width: 100%;
+}
+
+.remn{
+    z-index: 1;
+}
+
+label.logo{
+    background-color: rgb(216, 210, 31);
+    color:black;
+    font-size:40px;
+    font-style: oblique;
+    line-height: 80px;
+    padding: 0px 100px;
+    font-weight: bold;
+    float: left;
+
+}
+
+nav ul{
+    float:right;
+    margin-right:20px;
+}
+
+nav ul li {
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+   
+}
+nav ul li a{
+    background-color: black;
+    color:white;
+    transition-duration: 0.6s;
+    font-size:17px;
+    padding: 7px 13px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background-color: yellow;
+    color: black; 
+    font-size:17px; 
+}
+
+
+
+.relative{
+    margin:auto;
+    margin-top: 25px;
+    padding: 10px;
+    position: relative;
+    border: 5px solid green;
+    background-color: black;
+    color: white;
+    width:75%;
+    height:300px;
+    border-radius: 24px;
+}
+
+.matchname{
+    margin-top: 5px;
+    display: inline-block;
+    position:absolute;
+    left:139px;
+    background-color:rgb(42, 36, 36);
+    border: 2px solid none;
+    border-radius: 15px;
+    width:75%;
+}
+
+.smatchname{
+    margin-top: 5px;
+    display: inline-block;
+    position:absolute;
+    left:139px;
+    background-color:rgb(42, 36, 36);
+    border: 2px solid none;
+    border-radius: 15px;
+    width:75%;
+}
+
+.date{
+    margin-top: 5px;
+    display:inline-block;
+    position:absolute;
+    right: 0px;
+    top:40%;
+    background-color: rgb(42, 36, 36);
+    border: 2px solid none;
+    border-radius: 15px;
+    width:20%;
+}
+
+.seriesdate{
+    margin-top: 5px;
+    display:inline-block;
+    position:absolute;
+    right: 0px;
+    top:40%;
+    background-color: rgb(42, 36, 36);
+    border: 2px solid none;
+    border-radius: 15px;
+    width: 48%;
+}
+
+.matchtype{
+    margin-top: 5px;
+    display: inline-block;
+    position:absolute;
+    left: 0px;
+    top:40%;
+    background-color:rgb(42, 36, 36) ;
+    border: 2px solid none;
+    border-radius: 15px;
+    width:20%;
+}
+.totalmatches{
+    margin-top: 5px;
+    display: inline-block;
+    position:absolute;
+    left: 0px;
+    top:40%;
+    background-color:rgb(42, 36, 36) ;
+    border: 2px solid none;
+    border-radius: 15px;
+    width:48%;
+}
+.t20is{
+    margin-top: 5px;
+    display: inline-block;
+    position:absolute;    
+    left: 0px;
+    top:200px;  
+    background-color:rgb(42, 36, 36) ;
+    border: 2px solid none;
+    border-radius: 15px;
+    width:20%;
+}
+.odis{
+    margin-top: 5px;
+    display: inline-block;
+    position:absolute;    
+    left: 450px;
+    top:200px;  
+    background-color:rgb(42, 36, 36) ;
+    border: 2px solid none;
+    border-radius: 15px;
+    width:20%;
+}
+.tests{
+    margin-top: 5px;
+    display: inline-block;
+    position:absolute;
+    right: 0px;
+    top:200px;
+    background-color:rgb(42, 36, 36) ;
+    border: 2px solid none;
+    border-radius: 15px;
+    width:20%;
+}
+.status{
+    display: inline-block;
+    position:absolute;
+    right: 0px;
+    top: 200px;
+    background-color:rgb(42, 36, 36);
+    border: 2px solid none;
+    border-radius: 15px;
+    width: 48%;
+}
+.venue{
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    background-color:rgb(42, 36, 36) ;
+    border: 2px solid none;
+    border-radius: 15px;
+    width: 48%;
+}
+
+.teaminfo{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+
+    left:349px;
+    top: 40%;
+    background-color:rgb(42, 36, 36) ;
+    border: 2px solid none;
+    border-radius: 15px;
+    width: 36%;
+}
+
+.teaminfo img{
+    border-radius:30px;
+    height:30px ;
+    width: 30px;
+}
+
+.aboutus{
+    
+    margin: auto;
+    font-size: 30px;
+    height: 500px;
+    width: 81%;
+}
+
+.hed1{    
+    margin-left: 250px;
+    margin-top: 20px;
+    width: 60%;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+
+.hed3{
+    margin-left: 250px;
+    margin-top: 50px;
+    width: 60%;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+.aboutus p{
+    margin-left: 190px;
+    margin-top: 20px;
+    width: 70%;
+    color: white;
+}
+
