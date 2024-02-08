@@ -12,7 +12,6 @@ const Series = () => {
     
            let response= await fetch(url + offset);
            let data1 =await response.json(); 
-            console.log(data1.data);
            setdatarray(data1.data);
     }
     useEffect(() => {
